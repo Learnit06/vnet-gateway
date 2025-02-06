@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "myResourceGroup"
-  location = "Central US"
+  location = "East US"
 }
 
 resource "azurerm_virtual_network" "vnet" {
